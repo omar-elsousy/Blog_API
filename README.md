@@ -99,9 +99,8 @@ json
 ```
 ######  Delete Post - GET          ``` /api/post/delete/{id} ```
 
-### User is forced to (update-delete) only his own posts.
-
 ### Authorization
+##### User is forced to (update-delete) only his own posts.
 ###### For all ``` api/post ``` routes  , include an Authorization header with your access token:
 **Header body :**
 ```
